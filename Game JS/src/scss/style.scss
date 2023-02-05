@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(184deg, #8c2424, #453164);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#oyun{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(55deg, #c85757, #b5641cd9);
+    position: relative;
+    overflow: hidden;
+    #xarakter{
+        font-size: 30px;
+    position: absolute;
+    top: 167px;
+}
+    }
+    #block{
+       font-size: 30px;
+        position: absolute;
+        top: 167px;
+        left: 470 px;
+        animation: block 2s infinite linear;
+        @keyframes block{
+            0%{left: 480px;}
+            100%{left: -40px;}
+        }
+    }
+
+        .animate{
+            animation: jump 500ms infinite;
+        }
+        @keyframes jump {
+            0%{top: 150px;}
+            30%{top: 100px;}
+            70%{top: 100px;}
+            100%{top: 150px;}
+        }
