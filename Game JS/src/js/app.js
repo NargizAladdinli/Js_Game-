@@ -19,5 +19,6 @@ const checkDead = setInterval(function(){
         block.style.display = "none"
           alert("Uduzduz")
     }
+
 }, 10);
 console.log(checkDead);
